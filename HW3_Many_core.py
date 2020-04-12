@@ -182,7 +182,7 @@ def check_if_isolated(design):
             if len(design[i].Neighbours) > 7:
                 return 0
     return 1
-
+ 
 
 def cores_swap(curr,nxt):
 
